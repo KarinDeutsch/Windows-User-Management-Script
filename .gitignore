@@ -1,0 +1,5 @@
+*.ps1~         # Temporary script backup files
+*.log          # Log files (if added later)
+*.bak          # Backup files
+.DS_Store      # macOS metadata
+Thumbs.db      # Windows metadata
