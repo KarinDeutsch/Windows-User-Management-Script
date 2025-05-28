@@ -1,3 +1,16 @@
+<#
+.SYNOPSIS
+    PowerShell script to manage local users on Windows via CLI menu.
+
+.DESCRIPTION
+    Allows administrators to add, modify, delete, and list local user accounts.
+    Useful for IT professionals and system administrators.
+
+.NOTES
+    Author: Karin Deutsch
+    Run as Administrator.
+#>
+
 # Function to add a new user
 function Add-User {
     $username = Read-Host "Enter username"
