@@ -4,15 +4,15 @@ This is a PowerShell-based command-line tool for local user account management o
 
 ## 🔧 Features
 
-- Create new users with:
-  - Secure password input
+- 🔐 Add new users with:
+  - Secure password prompt
   - Optional expiration date
-  - Group assignment
-- Edit existing users:
-  - Change password, name, groups, or expiration
-- Delete users safely
-- List all current local users
-- Simple terminal menu navigation
+  - Optional group assignment
+- ✏️ Edit users:
+  - Change password, full name, expiration date, groups
+- ❌ Delete existing users
+- 📋 Show all local users
+- 🧭 Simple interactive terminal menu
 
 ## 📂 Usage
 
@@ -24,14 +24,21 @@ This is a PowerShell-based command-line tool for local user account management o
 
 Note: This script uses built-in cmdlets like New-LocalUser and Add-LocalGroupMember, so it only works on Windows 10/11/Server with local user access.
 
-🧠 Skills Demonstrated
+## 🧠 Skills Demonstrated
 - PowerShell scripting
 - Local user management
 - Menu-driven automation
-- String and date handling
+- SecureString and date handling
 - Secure password input
+- Menu-based CLI logic
 - Use of conditionals and loops
+- Automation for IT/admin tasks
 - Basic DevOps/sysadmin scripting logic
 
-**🚫 Disclaimer
+## ⚙️ Requirements
+- Windows 10/11 or Server
+- PowerShell 5+
+- Local admin permissions
+
+## 🚫 Disclaimer
 This is a local-only script for educational and administrative use on test or personal systems. Use responsibly.
